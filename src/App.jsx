@@ -1,6 +1,5 @@
 import React from 'react';
 import Testimonio from './components/Testimonio';
-import { Container, Box, List } from '@mui/material';
 
 const App = () => {
   const testimonios = [
