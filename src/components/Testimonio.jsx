@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Card, CardMedia, CardContent, Typography, IconButton, Stack, Box, Paper } from '@mui/material';
+import { Card, CardMedia, CardContent, Typography, IconButton, Stack, Box} from '@mui/material';
 import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
