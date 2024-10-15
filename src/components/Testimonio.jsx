@@ -4,9 +4,9 @@ import FavoriteIcon from '@mui/icons-material/Favorite';
 import FavoriteBorderIcon from '@mui/icons-material/FavoriteBorder';
 
 const Testimonio = ({ nombre, imagen, alt, testimonio, titulo }) => {
-  const [meGusta, setMeGusta] = useState(false);
 
-  const handleLike = () => {
+ const [meGusta, setMeGusta] = useState(false);
+ const handleLike = () => {
     setMeGusta(!meGusta);
   };
 
